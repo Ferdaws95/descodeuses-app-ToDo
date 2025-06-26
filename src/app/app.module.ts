@@ -29,7 +29,7 @@ import {MatNativeDateModule, provideNativeDateAdapter} from '@angular/material/c
 import { TodoTableComponent } from './components/todo-table/todo-table.component';
 import {MatTableModule} from '@angular/material/table';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
-import { CalculatriceComponent } from './components/calculatrice/calculatrice.component';
+
 
 @NgModule({
   declarations: [
@@ -42,10 +42,9 @@ import { CalculatriceComponent } from './components/calculatrice/calculatrice.co
     TodoDetailsComponent,
     TodoTableComponent,
     DashboardComponent,
-    CalculatriceComponent,
-  ],
+    ],
   imports: [
-    //Importer les modules pour pouvoir utiliser 
+    //Importer les modules pour pouvoir utiliser
     //les composants correspondants material et autre
     BrowserModule,
     AppRoutingModule,
